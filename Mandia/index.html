@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fish Business</title>
+    
+    <!-- Linking CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fresh Fish Market</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Fresh and Quality Fish Delivered to You</h2>
+        <button onclick="alert('Order Now!')">Order Now</button>
+    </section>
+
+    <section id="about">
+        <div class="glassmorph">
+            <h2>About Us</h2>
+            <p>We provide the freshest fish straight from the sea to your table.</p>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="glassmorph">
+            <h2>Our Products</h2>
+            <ul>
+                <li>🐟 Tilapia - $5/kg</li>
+                <li>🐠 Salmon - $15/kg</li>
+                <li>🦞 Lobster - $30/kg</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="glassmorph">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <p id="response"></p>
+        </div>
+    </section>
+
+    <!-- Linking JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
