@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1740433023 source:c:\users\evang\downloads\pos\dsa\main.cpp
+	<iostream>
+	<vector>
+

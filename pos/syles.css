@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    transition: background=color 0.5s ease, coclaor 0.5s ease;
+}
+
+button{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+body.dark-mode{
+    background-color: #000000;
+    color: #f1f1f1;
+}
